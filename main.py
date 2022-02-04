@@ -22,4 +22,4 @@ async def on_message(message):
                 await channel.send('Commande Incorrecte !')
                 await client.http.delete_message(message.channel.id, message.id)
 
-client.run('NzY4NTY0MDA0MzI2NjA0ODcx.X5CTAQ.E65rxFfBFKxnXpf03z5w2xkUKx4')
+client.run('TOKEN')
